@@ -119,7 +119,8 @@
       "Path": "/dev/stune/top-app/schedtune.boost",
       "Values": [
         "10",
-        "5"
+        "5",
+	"1"
       ],
       "ResetOnInit": true
     },
@@ -232,7 +233,7 @@
       "PowerHint": "INTERACTION",
       "Node": "TASchedtuneBoost",
       "Duration": 0,
-      "Value": "10"
+      "Value": "1"
     },
     {
       "PowerHint": "INTERACTION",
@@ -267,13 +268,13 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBigClusterMinFreq",
-      "Duration": 5000,
+      "Duration": 1000,
       "Value": "9999999"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPULittleClusterMinFreq",
-      "Duration": 5000,
+      "Duration": 3000,
       "Value": "9999999"
     },
     {
@@ -315,7 +316,7 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "GPUIdleTimer",
-      "Duration": 5000,
+      "Duration": 3000,
       "Value": "10000"
     },
     {
